@@ -5,39 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/template.css" rel="stylesheet">
   </head>
 
   <style>
-    div{
+    /* div{
         background: red;
-    }
-    article{
-      background: skyblue;
-    }
+    } */
   </style>
 
 
   <body>
+
     <header>
+
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <!-- bg - backgroud -->
         <div class="container">
-            <div class="row">
-                <div class="col-md-2 col-sm-12">Logo</div>
-                <div class="col-md-10 col-sm-12">Menu</div>
-            </div>
+          <!-- container - centralizar o ceonteudo  -->
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <!-- ul - lista -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+
     </header>
+
     <section>
-        <article class="container">
+
+        <article id="banner" class="container">
           <div class="row">
-            <div class="col-md-12 col-sm-12">Banner</div>
+            <div  class="col text-center" style="padding-top: 125px;">
+              <h1>Titulo</h1>
+              <p>Texto</p>
+              <button class="btn btn-outline-secondary">Botão</button>
+            </div>  
           </div>
         </article>
-        <article class="container">
+
+        <article id="article1" class="container">
           <div class="row">
-            <div class="col-md-12 col-sm-12">Banner</div>
+            <div class="col-md-6 col-sm-12">
+              artigo 1
+            </div>
+            <div class="col-md-6 col-sm-12">
+              artigo 
+            </div>
           </div>
         </article>
+
     </section>
+
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

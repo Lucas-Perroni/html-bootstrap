@@ -3,6 +3,22 @@
     margin-top: 60px;
     min-height: 400px;
 }
+#row1{
+    margin-top: 16px;
+}
 #article1{
-    background: pink;
+    padding: 16px ;
+  
+}
+#foto1{
+    /* position: relative;
+    top: 16px; */
+    width: 80%;
+    height: 150px;
+    /* background: blue; */
+    border-radius: 21px 21px 0 0;
+}
+#article2{
+    background: blue;
+    padding: 16px;
 }

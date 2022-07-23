@@ -1,24 +1,65 @@
 #banner{
-    background: blue;
+    /* background: blue; */
     margin-top: 60px;
     min-height: 400px;
 }
 #row1{
     margin-top: 16px;
+    height: 80%;
 }
 #article1{
-    padding: 16px ;
-  
+    height: 300px;
+    padding-top: 20px;
 }
 #foto1{
     /* position: relative;
     top: 16px; */
     width: 80%;
-    height: 150px;
+    height: 260px;
     /* background: blue; */
     border-radius: 21px 21px 0 0;
+    
 }
 #article2{
+    height: 300px;
+    padding-top: 20px;
+}
+#foto2{
+    /* position: relative;
+    top: 16px; */
+    width: 80%;
+    height: 260px;
+    /* background: blue; */
+    border-radius: 21px 21px 0 0;
+    
+}
+#article3{
+    height: 300px;
+    padding-top: 20px;
+}
+#foto3{
+    /* position: relative;
+    top: 16px; */
+    width: 80%;
+    height: 260px;
+    /* background: blue; */
+    border-radius: 21px 21px 0 0;
+    
+}
+#article4{
+    height: 300px;
+    padding-top: 20px;
     background: blue;
-    padding: 16px;
+}
+#foto4{
+    /* position: relative;
+    top: 16px; */
+    width: 80%;
+    height: 260px;
+    /* background: blue; */
+    border-radius: 21px 21px 0 0; 
+}
+#pequenos-blocos{
+    height: 100px;
+    margin-top: 16px;
 }

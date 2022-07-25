@@ -60,6 +60,7 @@
     border-radius: 21px 21px 0 0; 
 }
 #pequenos-blocos{
-    height: 100px;
+    height: 200px;
     margin-top: 16px;
+    padding-bottom: 20px;
 }
